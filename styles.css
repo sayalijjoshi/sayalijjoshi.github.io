@@ -51,11 +51,13 @@ body {
   .blk1{
     float: left;
     background-color: lavender;
+    padding-left: 5%;
   }
 
   .blk2{
     float: inline-start;
     background-color: lavender;
+   
   }
  .onediv {
 
@@ -110,6 +112,7 @@ font-weight: 900;
     
     background-color: lavender;
     padding-top: 5%;
+    font-weight: bold;
 
   }
   .social-icons{
