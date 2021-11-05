@@ -49,6 +49,7 @@ body {
   }
 
   .blk1{
+     padding-left: 5%
     float: left;
     background-color: lavender;
   }
