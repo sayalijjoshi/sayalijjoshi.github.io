@@ -89,6 +89,7 @@ font-weight: 900;
 .ts{
   padding-top: 10%;
   background-color: 	#F0F8FF;
+  background-image: linear-gradient(to bottom right, ghostwhite,linen);
   font-weight: 900;
 }
   .pro {
