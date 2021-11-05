@@ -48,10 +48,10 @@ body {
     color:  black;
   }
 
-  .blk1{
-     padding-left: 5%
+.blk1{
     float: left;
     background-color: lavender;
+    padding-left: 5%;
   }
 
   .blk2{
