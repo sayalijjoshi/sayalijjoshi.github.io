@@ -21,6 +21,7 @@ body {
     font-size: 5.625rem;  /* 1em = 16px i.e 90px = 90/16= 5.625    rem means relative em which means no matter what the size applied to parent we want this size to this perticular div*/
     font-family: 'Sacramento', cursive;
     line-height: 2;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
   }
   
   h2 {
@@ -37,8 +38,17 @@ body {
   }
   .tool{
     position: relative;
-  
+ 
+  }
+.ioit{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 8px;
 
+}  
+
+  .mit{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 8px;
   }
 
   h3 {
