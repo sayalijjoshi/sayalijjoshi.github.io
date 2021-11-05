@@ -3,14 +3,16 @@ body {
     text-align: center;
     font-family: 'Merriweather', serif;
     font-size: 1.5em; /* 1em = 16px*/
-    background-image: url('/5.png');
-
+    background-image: url('C:/Users/Sayali Joshi/Desktop/sayali-portfolio/5.png');
+    background-repeat: no-repeat;
     }
   
+  
+    
 
   
   p {
-    font-family: 'Montserrat', sans-serif;
+    
     font-weight: normal;
     color:black;
   }
@@ -30,28 +32,55 @@ body {
     font-weight :bold;
   }
   hr {
-      border:none;
+      border: dashed ;
       border-bottom: none;
-      width: 4%;
+      width: 10%;
       margin: 100px auto;
   }
+  .tool{
+    position: relative;
   
+
+  }
+
   h3 {
     font-family: 'Montserrat', sans-serif;
     color:  black;
   }
-  
+
+  .blk1{
+    float: left;
+    background-color: lavender;
+  }
+
+  .blk2{
+    float: inline-start;
+    background-color: lavender;
+  }
  .onediv {
 
     position: relative;
     padding-top: 20%;
-
+    padding-bottom: 20%;
   }
 .middle-container{
-
+    background-color: lavenderblush;
     padding-top: 10;
+    font-style: oblique;
+    
 }
-  
+
+.ach{
+background-color: #FFF5EE ;
+padding-top:5%;
+font-weight: 900;
+
+}
+.ts{
+  padding-top: 10%;
+  background-color: 	#F0F8FF;
+  font-weight: 900;
+}
   .pro {
     text-decoration-style: wavy ;
   }
@@ -75,9 +104,12 @@ body {
   
       position: relative;
       padding-top: 100px;
+      background-color: lavenderblush;
   }
   .edu{
-    padding-top: 22%;
+    
+    background-color: lavender;
+    padding-top: 5%;
 
   }
   .social-icons{
