@@ -22,7 +22,19 @@ body {
     font-family: 'Sacramento', cursive;
     line-height: 2;
     text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    text-align: center;
+    position: relative;
+    animation-name: example;
+    animation-duration: 8s;
   }
+    
+     
+@keyframes example {
+   0%   {background-color:transparent; left:0px; top:0px;}
+  25%  {background-color:transparent; left:60px; top:0px;}
+  
+ 
+}
   
   h2 {
     font-family: 'Montserrat', sans-serif;
@@ -42,13 +54,13 @@ body {
   }
 .ioit{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 8px;
+    border-radius: 20px;
 
 }  
 
   .mit{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 8px;
+    border-radius: 20px;
   }
 
   h3 {
